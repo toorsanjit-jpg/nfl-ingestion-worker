@@ -1,10 +1,9 @@
 {
   "name": "nfl-ingestion-worker",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
-  "dependencies": {
-    "node-fetch": "^3.3.2",
-    "dotenv": "^16.4.1"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   }
 }
